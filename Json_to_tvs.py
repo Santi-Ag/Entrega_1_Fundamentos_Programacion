@@ -24,7 +24,7 @@ with open(output_path, "w", encoding="utf-8") as f_out:
     for row in data:
         f_out.write("\t".join(row) + "\n")        # Write each row separated by tabs
 
-# Print the table to the console
+# Print the table to the console (view)
 print("taxId\trank\tname\tgroupName")   # Print the header
 for row in data:
     print("\t".join(row))               # Print each row
